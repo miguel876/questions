@@ -1,3 +1,4 @@
 {
-    "baseURL": "https://private-bbbe9-blissrecruitmentapi.apiary-mock.com" 
+    "baseURL": "https://private-bbbe9-blissrecruitmentapi.apiary-mock.com",
+    "statusOk": "OK"
 }

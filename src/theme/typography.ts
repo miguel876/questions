@@ -1,10 +1,11 @@
 export const typography = {
     typography: {
-        fontFamily: "Montserrat",
-        fontSize: 12,
-        subtitle1: {
-          fontSize: 10,
-          fontWeight: 700
+        fontSize: 14,
+        caption: {
+          fontSize: 12,
         },
+        subtitle1: {
+          fontSize: 18,
+        }
       },
 }
