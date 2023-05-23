@@ -1,13 +1,17 @@
 
 import React from 'react'
-import { StyledCircularProgress, StyledCircularProgressContainer } from './loading.style'
+import { StyledCircularProgressContainer } from './loading.style'
+import { CircularProgress } from '@mui/material'
 
-type Props = {}
+type Props = {
+  size?: number 
+}
 
-const Loading = (props: Props) => {
+const Loading = ({ size = 40 }: Props) => {
+  
   return (
     <StyledCircularProgressContainer>
-      <StyledCircularProgress />
+      <CircularProgress size={size} />
     </StyledCircularProgressContainer>
   )
 }
